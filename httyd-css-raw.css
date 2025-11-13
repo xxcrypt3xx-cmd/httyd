@@ -1,5 +1,5 @@
 body {
-background: url('URLHere') no-repeat center center fixed !important;
+background: url('https://iili.io/KyCVWHQ.jpg') no-repeat center center fixed !important;
 color: none !important;
 backgorund-size: cover !important;
 }
@@ -27,6 +27,10 @@ box-shadow: none !important;
 font-family: '';
 }
 
+.navbar:hover {
+background: # !important;
+color: # !immportant;
+border: 0 0 10px #, 0 0 20px #
 .navbar-header > a > img {
 content: url('');
 width: 100px;
