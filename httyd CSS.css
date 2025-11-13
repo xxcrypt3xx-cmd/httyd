@@ -3,7 +3,7 @@
 body {
 background: url('https://iili.io/KyCVWHQ.jpg') no-repeat center center fixed !important;
 color: none !important;
-backgorund-size: cover !important;
+background-size: cover !important;
 }
 
 .col-md-9.col-xs-12 {
@@ -23,7 +23,6 @@ border-radius: 15px !important;
 
 .navbar {
 background: #2D1C11 !important;
-color: #B08263 !important;
 border:1px solid #5A4530 !important;
 border-bottom: none !important;
 border-top: none !important;
@@ -33,7 +32,10 @@ box-shadow: none !important;
 font-family: 'Playfair Display';
 }
 
-.navbar:hover {
+navbar li a {
+color: #B08263 !important;
+}
+.navbar li a:hover {
 background: none !important;
 color: #FCF4D7 !important;
 border: 0 0 10px #FCF4D7, 0 0 20px #FCF4D7, 0 0 40px #FCF4D7; !important;
